@@ -3,13 +3,13 @@ layout: page
 title: About
 ---
 
-Some Markdown content describing your site.
+The content of the body element is displayed in the tab on the left window. They include:
 
-## About About Pages
+- Home
+- Backgound
+- Research Questions
+- Methodology
+- Key Findings
+- Codes
 
-The About page is a common convention found on websites.
-It is your opportunity to let us know all the details "about" your project:
-
-- focus and topic area
-- people involved
-- code and projects used
+- The people involved in this project are Jane Luke and Bukola Anifowoshe.
