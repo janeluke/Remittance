@@ -3,10 +3,7 @@ layout: page
 title: Key Findings
 ---
 
-## Findings ##
-
-## Implementation Challenges ###
-
+## Implementation Challenges
   
 <p align="justify"> We believe it is necessary to rule out East and Southeast Asia because there are several global implementation challenges in these regions.
 The idea of leveraging remittances is not a new concept within the context of Southeast Asia. However, remittance-based projects within this specific geography have focused on (1) cash remittances and (2) finance-based development projects. With these considerations, Southeast Asia might not be the most suitable place for a green remittance project.</p>
