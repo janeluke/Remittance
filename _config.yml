@@ -1,5 +1,4 @@
 # Site settings
-<img src="{{ site.url }}{{ site.baseurl }}/image/UC_Berkeley_Seal_80px.jpeg">
 title: Analysis of Global and Regional Remittance Flow
 author: Jane Luke and Bukola Anifowoshe
 name: Jane Luke
