@@ -12,7 +12,11 @@ title: Background
 <p align="justify">For this study, we understood remittances to be cross-border, voluntary monetary and non-monetary (in-kind) transfers made by migrants and diaspora members, individually or collectively, to people or communities in their home countries. Remittances have become an increasingly important source of development finance for low- and middle-income countries (LMICs), as remittance flows have surpassed official development assistance (ODA) and are more consistent than other sources, such as foreign direct investment (FDI) and private debt and investment equity. According to Figure 1, remittances are three times that of ODA, and have even surpassed FDI in recent years.</p>
 
 
+![placeholder](https://raw.githubusercontent.com/janeluke/Remittance/main/image/Remittance%20flow.png/800x400 "Large example image")
+
 <figure>
+
+![placeholder](http://placehold.it/800x400 "Large example image")
 <img src="https://raw.githubusercontent.com/janeluke/Remittance/main/image/Remittance%20flow.png", align="center" alt="Remittance" style="width:90%">
 <figcaption align="center"><b>Figure 1.  Development finance flows to LMICs, 1990-2022 est.</b></figcaption>
 </figure> 
