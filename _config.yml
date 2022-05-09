@@ -5,6 +5,8 @@ name: Jane Luke
 email: janeluke0@gmail.com
 description: "A 2022 Project for CYPLAN 255 at the University of California, Berkeley"
 github_username: janeluke
+github:
+repo:          https://github.com/janeluke/Remittance
 
 # Build settings
 remote_theme: jekyll/minima
