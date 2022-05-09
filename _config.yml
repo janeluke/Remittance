@@ -7,6 +7,6 @@ description: "A 2022 Project for CYPLAN 255 at the University of California, Ber
 github_username: janeluke
 
 # Build settings
-remote_theme: jekyll/minima
+# remote_theme: jekyll/minima
 
 theme: jekyll-theme-slate
