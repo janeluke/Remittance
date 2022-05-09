@@ -27,7 +27,7 @@ Table 1 below shows a quantitative and comparative analysis of global remittance
 
 
 <figure>
-     <img src="", align="center" alt="qualitativeanalysis" style="width:100%">
+     <img src="https://raw.githubusercontent.com/janeluke/testingagain/main/image/Qualitative%20analysis%20on%20remittance.png", align="center" alt="qualitativeanalysis" style="width:100%">
      <figcaption align = "center"><b>Table 1. Quantitative analysis of global remittance inflows and outflows.</b></figcaption>
 </figure>
 
