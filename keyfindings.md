@@ -4,7 +4,7 @@ title: Key Findings
 ---
 
 ## Implementation Challenges
-  
+
 <p align="justify"> We believe it is necessary to rule out East and Southeast Asia because there are several global implementation challenges in these regions.
 The idea of leveraging remittances is not a new concept within the context of Southeast Asia. However, remittance-based projects within this specific geography have focused on (1) cash remittances and (2) finance-based development projects. With these considerations, Southeast Asia might not be the most suitable place for a green remittance project.</p>
 
@@ -27,12 +27,10 @@ The idea of leveraging remittances is not a new concept within the context of So
 
 <p align="justify">International financial institutions (IFIs) can be key partners in the implementation of this platform. Our market research showed that a large majority of respondents used Western Union to send remittances. For the purpose of sending money, they have an online presence in 75 countries and territories, of which more than 50 countries have transactional mobile apps. For the purpose of receiving money, they have a global account network reaching 125 countries, paying out into billions of bank accounts, wallets, and cards, as well as a retail network with 550,000 locations across urban, rural, and remote parts of the world [^1]. They report that digital cross-border payments comprised 34% of transactions and 23% of revenues for their consumer-to-consumer segment. In addition to dominating the market in SSA, Western Union has seen 77% transaction growth in digital money transfer, ahead of its peers (Moneygram, Transferwise, Paypal, and Ria) by a wide margin. Their digital growth has been led by the US, France, UK, Australia, and Germany; four of which are in the top 10 remittance senders globally (Table 1).
 [^1]: Jaffin, J. (2021). How Western Union Became a Global Digital Front-Runner for Cross-Border Payments. Retrieved from Western Union: https://www.westernunion.com/blog/en/digital-front-runner-of-cross-border-payments/
-  </p>
-
+</p>
 
 <p align="justify">Western Union engages in corporate social responsibility through its Environmental and Social Governance (ESG) Strategy. Their ESG Strategy lists 3 priority areas: (1) Diversity, Equity, and Inclusion; (2) Integrity of Global Money Movement; and (3) Economic Prosperity. Additionally, their strategy explicitly mentions their support of the UN SDGs. They claim to focus specifically on Goal 1 (No Poverty), Goal 5 (Gender Equality), Goal 8 (Decent Work and Economic Growth), Goal 10 (Reduced Inequalities), Goal 16 (Peace, Justice and Strong Institutions) and Goal 17 (Partnerships for the Goals) [^2]. There seems to be very fertile ground here, so we recommend forming a partnership with Western Union. It may be possible to link the green remittance e-commerce platform to the existing fin-tech software of this major IFI—akin to how Zelle has linked itself to a number of banks. Similarly, the lure of little to no transaction fees can help move a significant share of the market towards engaging with this platform.
 [^2]: Western Union. (2021). Environmental, Social, and Governance Report Executive Summary. Retrieved from https://corporate.westernunion.com/wp-content/uploads/2021/06/2020-Western-Union-ESG-Summary.pdf </p>
-
 
 Other potential partners:
 
@@ -40,5 +38,4 @@ Other potential partners:
 2. Implementation support/funding: [Light Up the World Foundation](https://lutw.org/home/about-us/), [GOGLA](https://africa.unlockingsolarcapital.com/about-gogla), [Sun King](https://sunking.com/about-sun-king/)
 3. Product delivery: [DHL](https://www.dhl.com/global-en/home/about-us/sustainability.html)
 4. Service delivery: Local utility providers, [Barefoot Power](https://www.barefootpower.com/about-us.html)
-
 
