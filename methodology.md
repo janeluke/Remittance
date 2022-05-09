@@ -3,7 +3,6 @@ layout: page
 title: Methodology
 ---
 
-
 To further assess global remittance flows, we broke down the developing world into three broad geographic categories and highlighted the countries receiving the highest value of remittances within each key geography. Using this breakdown, we aimed to understand the magnitude of remittance flows to the region (including GDP), common ways of remitting, and to build a broad profile of the receivers and uses.
 1. Asia, with a focus on China and the Philippines
 2. Africa, with a focus on Egypt and Nigeria
@@ -21,8 +20,6 @@ For the Philippines, less than 10% of lower income households receive remittance
 
 [^2]: Alvin P. Ang, Guntur Sugiyarto, and Shikha Jha (2009). Remittances and Household Behavior in the Philippines. Retrieved from https://www.adb.org/sites/default/files/publication/28401/economics-wp188.pdf
 
-
-
 ## Africa ##
 
 The African countries receiving the largest remittance inflows overall (1980-2021e) are Egypt ($381 billion), Nigeria ($347 billion), Morocco ($163 billion), Tunisia ($49 billion), and Ghana ($37 billion). It is clear that Egypt and Nigeria are receiving the greatest amount of remittances–soaring magnitudes above other countries in the African top 10. Egypt and Nigeria are also the top 2 richest African countries due to their rapidly growing economies, the rise in oil prices benefitting oil-producing countries worldwide, and perhaps partially due to the massive amount of remittance inflows they receive. 
@@ -38,7 +35,6 @@ According to IFAD, one in five people in Africa send or receive international re
 [^5]: Goldman, K. R. (2021). The Africa Remittance Dilemma. Milken Institute Review. Retrieved from https://www.milkenreview.org/articles/the-africa-remittance-dilemma
 [^6]: International Fund for Agricultural Development. (n.d.). Platform for Remittances, Investments and Migrants’ Entrepreneurship in Africa. IFAD. Retrieved from https://www.ifad.org/en/prime-africa 
 [^7]: Cersten, S., & Munzele, M., Samuel. (2005). Migrant Labor Remittances in Africa : Reducing Obstacles to Developmental Contributions. World Bank Group. Retrieved from https://openknowledge.worldbank.org/handle/10986/9672 
-
 
 ## Latin America and the Caribbean ##
 
