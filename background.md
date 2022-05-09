@@ -14,8 +14,8 @@ title: Background
 
 
 <figure>
-     <img src="https://raw.githubusercontent.com/janeluke/Remittance/main/image/Remittance%20flow.png", align="center" alt="Remittance" style="width:90%">
-     <figcaption align="center"><b>Figure 1.  Development finance flows to LMICs, 1990-2022 est.</b></figcaption>
+<img src="https://raw.githubusercontent.com/janeluke/Remittance/main/image/Remittance%20flow.png", align="center" alt="Remittance" style="width:90%">
+<figcaption align="center"><b>Figure 1.  Development finance flows to LMICs, 1990-2022 est.</b></figcaption>
 </figure> 
 
 [^1]
@@ -27,8 +27,8 @@ Table 1 below shows a quantitative and comparative analysis of global remittance
 
 
 <figure>
-     <img src="https://raw.githubusercontent.com/janeluke/Remittance/main/image/Qualitative%20analysis%20on%20remittance.png", align="center" alt="qualitativeanalysis" style="width:100%">
-     <figcaption align = "center"><b>Table 1. Quantitative analysis of global remittance inflows and outflows.</b></figcaption>
+<img src="https://raw.githubusercontent.com/janeluke/Remittance/main/image/Qualitative%20analysis%20on%20remittance.png", align="center" alt="qualitativeanalysis" style="width:100%">
+<figcaption align = "center"><b>Table 1. Quantitative analysis of global remittance inflows and outflows.</b></figcaption>
 </figure>
 
 **Minimize Harm Ethics**
