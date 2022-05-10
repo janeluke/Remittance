@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-# <p align="justify">Remittances of Goods and Services as a Sustainability Finance Strategy: Enabling the Diaspora to Support Friends and Family in Developing Countries in Achieving the Sustainable Development Goals.</p>
+# Remittances of Goods and Services as a Sustainability Finance Strategy: Enabling the Diaspora to Support Friends and Family in Developing Countries in Achieving the Sustainable Development Goals.
 
 <p align="justify">A look into the inflow and outflow of remittances to understand the global remittance landscape in order to highlight the ideal geographies for remittance-based aid development initiatives.
 
