@@ -14,4 +14,4 @@ The content of the body element include:
 
 - This is a project by Jane Luke and Bukola Anifowoshe.
 
-github:         [https://github.com/janeluke/Remittance](Remittance)
+Github:         [Remittance](https://github.com/janeluke/Remittance)
