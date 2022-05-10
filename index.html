@@ -1,36 +1,200 @@
----
-layout: default
----
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CYPLAN255 Final</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+</style>
+</head>
+<body>
 
-<div class="posts">
-{% for post in paginator.posts %}
-<div class="post">
-<h1 class="post-title">
-<a href="{{ post.url }}">
-{{ post.title }}
-</a>
-</h1>
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-red w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="w3-container">
+    <h3 class="w3-padding-64"><b>CYPLAN 255<br>Final Project</b></h3>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a> 
+    <a href="#background" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Background</a> 
+    <a href="#datamethods" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Data & Methodology</a> 
+    <a href="#findings" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Key Findings</a> 
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact</a>
+  </div>
+</nav>
 
-<span class="post-date">{{ post.date | date_to_string }}</span>
+  
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
+  <span>Remittances as a Sustainability Finance Strategy</span>
+</header>
 
-{{ post.content }}
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+<!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>
+   
+  <!-- Header -->
+  <div class="w3-container" style="margin-top:80px" id="">
+    <h1 class="w3-jumbo"><b>Remittances as a Sustainability Finance Strategy</b></h1>
+  </div>
+
+  
+    <!-- Image -->
+  <div class="w3-row-padding">
+    <div class="w3-half">
+      <img src="back_map.png" style="width:200%" onclick="onClick(this)" alt="world map">
+#replace with interactive world carto
+    </div>
+  </div>
+
+ <!-- Background -->
+  <div class="w3-container" id="background" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Background.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+  
+    <p>The purpose of this project was to understand the global remittance landscape in order to determine the feasibility of remittance-based aid in achieving the SDGs.</p>
+    <p>Remittances are cross-border, voluntary monetary and non-monetary (in-kind) transfers made by migrants and diaspora members, individually or collectively, 
+       to people or communities in their home countries. Remittances have become an increasingly important source of development finance for low- and middle-income 
+       countries (LMICs). Data shows remittance flows have surpassed official development assistance (ODA) and are more consistent than other sources of development finance, 
+       such as foreign direct investment (FDI) and private debt and investment equity. </p>
+    <p>As shown in Figure 1, remittances have reached triple the level of ODA, and  have even surpassed foreign direct investment (FDI) in recent years.</p>
+
+<img src="/images/odafdi.png" style="width:75%" onclick="onClick(this)" alt="Development finance flows">
+<p class="w3-center">Source: <a href="https://migration.ucdavis.edu/rmn/blog/post/?id=2673" title="UCD" target="_blank" class="w3-hover-opacity">University of California, Davis</a></p>
+
+  </div>
+
+  
+  
+  <!-- Data & Methodology -->
+  <div class="w3-container" id="datamethods" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Data & Methodology.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+  
+# create horizontal filter
+# insert python dataframes
+# search WB remittance calculation methodology
+    
+    <p>The International Monetary Fund (IMF) is the main provider of international remittances statistics based on Central Bank data. It defines remittances as the sum of two main components in their Balance of Payments Statistics manual: </p>
+    <p>1. “Compensation of employees”: income earned by temporary migrant workers in the host country, and the income of workers who are employed by embassies, international organizations and foreign companies (or “the income of border, seasonal, and other short-term workers who are employed in an economy where they are not resident.</p>
+    <p>2. “Personal transfers”: current transfers in cash or in kind made or received by residents (migrants or non-migrants) from/to individuals in other countries (“all current transfers between resident and non-resident individuals”.</p>
+ 
+    <p> The World Bank provides annual estimates of remittances flows globally (and bilaterally), based on national balance of payment statistics produced by central Banks and compiled by the IMF. (See definitions of the two main remittances components above that give examples of what is included and what is not [Plaza and Ratha, 2017: 65-78]). Data cover remittances inflows into and outflows from countries. 
+        Remittance outflows are usually less important in migration and development debates (as well as in this study), but can be an indication of significant immigrant populations in a country, especially if outflows exceed inflows.
+        </p> 
+      
+    <p> This data exploration relied on data from the World Bank, reported by the Global Knowledge Partnership on Migration and Development (KNOMAD). The raw data spans 1980 to 2021 (estimated) and is given in millions, with up to six significant figures.
+        For the purposes of this study, remittances were defined as cross-border monetary transfers made by migrants and diaspora members, individually or collectively, to people or communities in their home countries.
+        It only concers bilateral remittance flows and not internal remittances, which are sent within countries rather than across borders.
+        </p>
+    
+    <table>"inrem_frame.html"</table>
+    <table>"outrem_frame.html"</table> 
+    
+  </div>    
+      
+  
+  <!-- Key Findings -->
+  <div class="w3-container" id="findings" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Key Findings.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    
+    <p>Quantitative analysis revealed that the top 10 countries receiving the most remittances overall are: India, China, Mexico, the Philippines, France, Egypt
+        Nigeria, Germany, Pakistan, and Bangladesh. The next figure shows trends over time for each of those countries (not adjusted for inflation). Along with
+        the raw data, the line graph shows the ever-increasing trajectory for countries such as India and China, which had been dominating the global remittance landscape
+      up to 2020.</p>
+  <div>
+    <div class="w3-half">
+      <img src="/images/top10.png" style="width:100%" onclick="onClick(this)" alt="Top 10 Remittance Receivers">
+    </div>
+    <div class="w3-half">
+      <img src="/images/trends_top10.png" style="width:100%" onclick="onClick(this)" alt="Top 10 Receivers, trends">
+    </div>
+  </div>
+  
+  <div>
+    <p>These figures certainly do not convey the whole story of the global remittance landscape. Additionally, the top receiving countries are too 
+       dispersed to devise a targeted strategy for directing remittances towards sustainable development.
+       Thus, aggregating the data to examine remittance inflows at the continental level was the next logical step.</p>
+    <p>The figures below reveal that</p>
+    <div class="w3-half">
+      <img src="/images/continents.png" style="width:100%" onclick="onClick(this)" alt="Top 10 Remittance Receivers">
+    </div>      
+    <div class="w3-half">
+      <img src="/images/continent_trends.png" style="width:100%" onclick="onClick(this)" alt="Top 10 Receivers, trends">
+    </div>
+  </div>
+      
+  </div>
+  
+  <!-- Contact -->
+  <div class="w3-container" id="contact" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Contact Me.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>Would you like to find out more about this project? Kindly input your information and I will follow up!</p>
+    <form action="/action_page.php" target="_blank">
+      <div class="w3-section">
+        <label>Name</label>
+        <input class="w3-input w3-border" type="text" name="Name" required>
+      </div>
+      <div class="w3-section">
+        <label>Email</label>
+        <input class="w3-input w3-border" type="text" name="Email" required>
+      </div>
+      <div class="w3-section">
+        <label>Message</label>
+        <input class="w3-input w3-border" type="text" name="Message" required>
+      </div>
+      <button type="submit" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom">Send Message</button>
+    </form>  
+  </div>
+
+<!-- End page content -->
 </div>
-{% endfor %}
-</div>
 
-<div class="pagination">
-{% if paginator.next_page %}
-<a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
-{% else %}
-<span class="pagination-item older">Older</span>
-{% endif %}
-{% if paginator.previous_page %}
-{% if paginator.page == 2 %}
-<a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
-{% else %}
-<a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
-{% endif %}
-{% else %}
-<span class="pagination-item newer">Newer</span>
-{% endif %}
-</div>
+<!-- W3.CSS Container -->
+<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></p></div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
+
+</body>
+</html>
+ -->
