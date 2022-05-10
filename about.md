@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-The content of the body element is displayed in the tab on the left window. They include:
+The content of the body element include:
 
 - Home
 - Backgound
@@ -12,4 +12,4 @@ The content of the body element is displayed in the tab on the left window. They
 - Key Findings
 - Codes
 
-- The people involved in this project are Jane Luke and Bukola Anifowoshe.
+- This is a project by Jane Luke and Bukola Anifowoshe.
